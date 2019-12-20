@@ -1,0 +1,56 @@
+<?php
+$json = file_get_contents(__DIR__."/experiences.json");
+$xps = json_decode($json);
+
+usort($xps,"xpsSort");
+
+function xpsSort($a, $b) {
+  return $a->start < $b->start;
+}
+
+?>
+
+<div class="container">
+	<?php
+	foreach($xps as $idx => $xp) {
+		xp1($xp, $idx);
+		if ($idx != count($xps)-1)  {
+			echo '<hr class="w-25 g-my-20 g-brd-primary">';		
+		}
+	}
+	?>
+</div>
+
+<?php
+
+function xp1($xp, $idx) {	
+	$startYear = substr($xp->start,0,4);
+	$startMonth = substr($xp->start,5,2);
+	$endYear = substr($xp->end,0,4);
+	$endMonth = substr($xp->end,5,2);
+	$textAlign = ($idx % 2 ==0 ? 'text-right': 'text-left');
+
+	echo '<div class="u-heading-v4-1 '.$textAlign.'">';
+	echo <<<EOT
+		<div class="g-mb-30">
+			<h2 class="h3 u-heading-v4__title g-mb-10">$xp->title</h2>
+			<p class="g-mb-3"><strong>$xp->client</strong>, du $startMonth/$startYear au $endMonth/$endYear </p>
+		</div>
+		<p class="text-justify"><i>$xp->desc1</i></p>
+		<p class="text-justify">$xp->desc2</p>	
+EOT;
+	echo '<div class="'.$textAlign.'">';
+	foreach($xp->technos as $tidx => $techno) {
+		techno($techno);
+	}	
+	echo '</div>';
+	echo '</div>';
+}
+
+function techno($techno) {
+	echo '<a href="#" class="btn btn-sm g-font-weight-600 g-letter-spacing-0_5 text-uppercase g-brd-2 g-rounded-50 g-mr-10 g-mb-15">';
+	echo $techno;
+	echo '</a>';
+}
+
+?>

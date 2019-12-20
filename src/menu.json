@@ -1,0 +1,51 @@
+[
+    {
+        "label": "Compétences",
+        "url": "#skills",
+        "file": "025-skills.html",
+        "id": "skills",
+        "addClasses": "page-break"
+    },
+    {
+        "label": "Conférences & Talks",
+        "url": "#confs",
+        "file": "075-confs.html",
+        "id": "confs",
+        "addClasses": "page-break"
+    },
+    {
+        "label": "Parcours Professionel",
+        "url": "#xps",
+        "file": "050-xps.html",
+        "id": "xps",
+        "addClasses": "page-break"
+    },
+    {
+        "label": "Diplômes & Certifications",
+        "url": "#diplomes",
+        "file": "060-diplomes.html",
+        "id": "diplomes",
+          "addClasses": "page-break"
+    },
+    {
+        "label": "Projets",
+        "url": "#projets",
+        "file": "100-projects.html",
+        "id": "projets",
+        "addClasses": "page-break"
+    },
+    {
+        "label": "Perso",
+        "url": "#perso",
+        "file": "110-perso.html",
+        "id": "perso",
+        "addClasses": "page-break"
+    },
+    {
+        "label": "Contact",
+        "url": "#contact",
+        "file": "120-contact.html",
+        "id": "contact",
+        "addClasses": "no-print"
+    }
+]

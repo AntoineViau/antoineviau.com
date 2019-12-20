@@ -1,0 +1,153 @@
+[
+  {
+    "title": "Architecte DevOps Amazon Web Services",
+    "client": " Editions du Canonnier",
+    "start": "2019-10-01",
+    "end": "2019-12-31",
+    "desc1": "Les Editions du Canonnier proposent plusieurs sites à destination des collectionneurs d'objets militaires anciens (sur une codebase/infra commune). L'infrastructure et le code étant datés et monolithiques, les sites n'étaient plus en mesure de soutenir la charge tant au niveau performances que fiabilité. Par ailleurs, un audit de sécurité était nécessaire ainsi qu'une mise en conformité RGPD.",
+    "desc2": "J'ai été en charge de la refonte et de la modernisation de l'infrastructure sous Amazon Web Services, avec un objectif de réduction des coûts d'exploitation et de maintenance. Les services utilisés ont été : ECS Fargate avec ECR, ELB, RDS, ELC, S3, Route53, CloudWatch (logs et events), Lambda. J'ai aussi géré la ré-écriture du code PHP/Symfony pour mise à jour, voire ré-écriture complète, afin d'optimiser l'usage de l'infrastructure, et assurer la conformité RGPD.",
+    "technos": [
+      "ECS",
+      "ECR",
+      "RDS",
+      "SNS",
+      "ELB",
+      "S3",
+      "Route53",
+      "CloudWatch",
+      "Lambda",
+      "CodeCommit",
+      "PHP",
+      "Symfony",
+      "MySql"
+    ]
+  },
+  {
+    "title": "Développeur Senior Full-Stack, Projet ONEVAL",
+    "client": "Renault Digital",
+    "start": "2018-01-01",
+    "end": "2019-09-30",
+    "desc1": "Renault Digital a pour mission de refondre un certains nombre d’outils internes à Renault en employant des méthodes et technologies à jour. Le projet ONEVAL entre dans ce cadre. C’est la transformation totale du process de gestion des prototypes et des tests de véhicules chez Renault et Nissan (jusqu’ici basés sur uniquement sur… Excel).",
+    "desc2": "J’ai intégré une équipe front avec pour mission, outre mes user-stories, de structurer et garantir la qualité de code, gérer l’intégration continue et le déploiement. J’ai eu aussi à faire des incursions côté back-end, tant au niveau code, qu’au niveau architectural (gestion de performance). Le projet comportait une équipe en France et une équipe en Inde.",
+    "technos": [
+      "Angular","TypeScript","D3.js",
+      "Spring Boot","Java","REST",
+      "Git",
+      "Gitlab-CI"
+    ]    
+  },
+  {
+    "title": "Lead Front & DataViz, Projet RRF",
+    "client": "Renault Digital",
+    "start": "2017-05-01",
+    "end": "2017-12-31",
+    "desc1": "Renault Digital a pour mission de refondre un certains nombre d’outils internes à Renault en employant des méthodes et technologies à jour. Le projet RRF entre dans ce cadre. Il s’agit de fournir les outils pour analyser une base de données reportant plusieurs années de relations entre Renault et ses fournisseurs. L’idée est d’en exprimer les masses en jeu au travers d’outils de data visualization innovants.",
+    "desc2": "Je suis en charge du développement du front totalement SPA en Angular et TypeScript. Mais surtout, je suis en charge de la data visualization avec D3. Je fournis des graphiques sur-mesure et interactifs pour fouiller la base de données de manière efficace. L’ensemble devant s’intégrer dans l’éco-système d’intégration continue et déploiement de Renault Digital qui se mettait en place à l’époque. Ca a été l’occasion pour moi de monter en compétence sur Docker, Gitlab et Gitlab-CI.",
+    "technos": [
+      "Angular","TypeScript",      
+      "Spring Boot","Java","REST",
+      "D3.js",
+      "Git",
+      "Gitlab-CI"
+    ]
+  },
+  {
+    "title": "Lead Front",
+    "client": "Didaxis",
+    "start": "2016-11-01",
+    "end": "2017-04-30",
+    "desc1": "Didaxis est la société leader du portage salarial en France. Elle lance une nouvelle solution – Hiworkers – qui étend son périmètre sur l’ensemble des professions.",
+    "desc2": "Je suis en charge du développement du front totalement SPA en Angular 2 et TypeScript. L’idée est de créer un job-board généraliste qui atteint tous les métiers et toutes les demandes.",
+    "technos": ["Angular", "TypeScript","Firebase", "Git"]
+  },
+  {
+    "title": "Lead Back-Office",
+    "client": "Antelop Payments",
+    "start": "2016-01-07",
+    "end": "2016-10-31",
+    "desc1": "Antelop Payments offre une solution de paiement par mobile basée sur la norme Host Card Emulation (HCE). Ils proposent un SDK Android et une solution serveur permettant à tout émetteur de cartes (banques, etc.) de proposer à leurs clients les transactions sans contact directement depuis leur mobile sur les terminaux déjà en place chez les commerçants. Antelop Payments est certifié au plus haut niveau de sécurité délivré par Visa.",
+    "desc2": "J’étais  en charge du développement du back-office totalement SPA en Angular 1.5, avec la méthodologie Angular 2 (composants) et ES2015.",
+    "technos": ["AngularJs", "Javascript", "REST"]
+  },
+  {
+    "title": "Lead back-office / Dev full-stack Web",
+    "client": " Backelite / Emmaus",
+    "start": "2015-12-01",
+    "end": "2016-06-30",
+    "desc1": "Emmaus a confié à Backelite la conception et réalisation d’un site à destination des jeunes afin de les aider dans leur parcours de recherche d’emploi. Il repose sur des quiz (gamification) et offre un générateur de CV.",
+    "desc2": "J’étais en charge de la partie back-end : développement de l’interface d’administration (back-office) pour la création des quiz, et développement de l’API REST partagée par le front et le back. L’IHM repose sur AngularJs, et l’API tourne sous Symfony 2. Je suis aussi intervenu régulièrement sur le front (AngularJs).",
+    "technos": ["PHP", "Symfony", "MySql", "REST", "AngularJs", "Gulp", "Git"]
+  },
+  {
+    "title": "Lead technique / Dev full-stack Web et mobile",
+    "client": "Tactilia / PMU",
+    "start": "2015-01-01",
+    "end": "2015-09-30",
+    "desc1": "Dans le cadre des Soirées Emotions, le PMU propose aux gens de s’initier aux paris hippiques avec des courses virtuelles diffusées sur écran géant et contrôlées par une application iPad. Les joueurs parient sur leurs mobiles via un site Web dédié.",
+    "desc2": "Conception et réalisation du site de paris virtuels destiné strictement aux mobiles, reposant sur AngularJS/Ionic. Mise en place d’une API REST pour la communication avec une application de contrôle. Organisation des Soirées Emotions via une interface d’administration SPA sous AngularJS.",
+    "technos": ["AngularJs", "Javascript", "Ionic", "PHP", "Symfony", "MySql", "Git", "Amazon Web Services"]
+  },
+  {
+    "title": "Lead technique / Dev Android et Full-Stack Web",
+    "client": "Tactilia / KTab",
+    "start": "2014-10-01",
+    "end": "2014-12-31",
+    "desc1": "KTab est une station d’accueil pour tablettes Samsung à destination des professionnels (Leroy-Merlin…). Elle contient une carte électronique dédiée liant la tablette à un lecteur RFID, un verrou mécanique et des ports USB.",
+    "desc2": "J’ai conçu et réalisé la solution permettant de contrôler le verrou en fonction de la carte lue sur le lecteur et les droits d’accès disponibles. Il y a donc d’un côté une application Android qui gère le lecteur RFID et le verrou, et de l’autre côté une application Web en SPA qui permet de gérer les permissions. Le liant se fait via une API REST.",
+    "technos": ["Android SDK", "Java", "AngularJs", "Javascript", "PHP", "Symfony", "Amazon Web Services"]
+  },
+  {
+    "title": "Développeur Android/Java",
+    "client": "Tactilia",
+    "start": "2014-07-01",
+    "end": "2014-09-30",
+    "desc1": "Fidbe est une solution de marketing interactif sur tablettes disposées dans des bornes, initialement conçue sous Titanium pour fonctionner sur iPad.",
+    "desc2": "Afin de garantir les performances et la fiabilité (notamment pour un fonctionnement sur des tablettes chinoises), j’ai été en charge du portagne en Android natif (Java) plutôt que sous Titanium. Ca a été l’occasion d’expérimenter diverses technologies (Ionic) et d’ajouter des fonctionnalités.",
+    "technos": ["Android SDK", "Java"]
+  },
+  {
+    "title": "Développeur Full-Stack Web",
+    "client": "Tactilia",
+    "start": "2013-10-01",
+    "end": "2014-06-30",
+    "desc1": "La solution ExpoTouch se présente sous la forme d’une application iOS/iPad (Titanium) de collecte d’informations clients et de commandes pour des show-rooms. Les données sont traitées dans un back-end et consultable dans une interface Web.",
+    "desc2": "J’ai été en charge de la refonte du back-end et de son interface utilisateur avec des objectifs de performances, fiabilité et modernisation.",
+    "technos": ["PHP", "Symfony", "Mysql", "AngularJs", "Javascript", "Amazon Web Services"]
+  },
+  {
+    "title": "Responsable développement Internet",
+    "client": "Histoire & Collections",
+    "start": "2004-01-01",
+    "end": "2013-08-31",
+    "desc1": "Histoire & Collections édite une dizaine de revues, ainsi que des livres à caractère historique. En 2004, partant d’un terrain totalement vierge, j’ai été en charge de la conception, réalisation, maintenance et évolution de l’infrastructure e-commerce de la  société. Cela s’est concrétisé sous la forme de deux sites e-commerce avec leurs outils associés. Prise charge de l’administration des serveurs  et de la gestion partielle du SI.",
+    "desc2": "",
+    "technos": []
+  },
+  {
+    "title": "Lead Developpeur",
+    "client": "Polygon Studio",
+    "start": "2000-01-01",
+    "end": "2004-08-31",
+    "desc1": "En charge d’une équipe de 5 développeurs C/C++ sur le jeu Burning. Plateforme : Windows/DirectX",
+    "desc2": "",
+    "technos": []
+  },
+  {
+    "title": "Développeur sénior outils 3D",
+    "client": "Nevrax",
+    "start": "2000-01-01",
+    "end": "2000-12-31",
+    "desc1": "Mise en place de la chaîne de production graphique et des bases du moteur 3D. Conception et réalisation de plugins pour Maya. C/C++, plateforme Windows/DirectX.",
+    "desc2": "",
+    "technos": []
+  },
+  {
+    "title": "Développeur 3D",
+    "client": "Quantic Dream",
+    "start": "1997-09-01",
+    "end": "1999-12-31",
+    "desc1": "Conception et réalisation du moteur 3D et des outils associés sur le jeu Omikron The Nomad Soul. C/C++, Windows/DirectX, PlayStation , DreamCast.",
+    "desc2": "",
+    "technos": []
+  }
+]

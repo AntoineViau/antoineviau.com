@@ -1,0 +1,97 @@
+[
+    {
+        "title": "Syntaxe des templates Angular 2",
+        "desc": "",
+        "date": "2015-01-01",
+        "where": "RennesJS",
+        "link": "https://rennesjs.org/",
+        "picture": "confs-angular-templates.jpg"
+    },
+    {
+        "title": "Bâtir son propre AngularJs (live-coding)",
+        "desc": "",
+        "date": "2016-01-01",
+        "where": "BKSchool @ Backelite",
+        "link": "https://www.backelite.com/fr/",
+        "picture": "confs-angularjs.jpg"
+    },
+    {
+        "title": "Introduction à Angular 2",
+        "desc": "",
+        "date": "2016-01-01",
+        "where": "Angular 2  & Live-Coding @ Beezen",
+        "link": "https://www.youtube.com/watch?v=Md-MWnkKSp4",
+        "picture": "confs-angular2-intro.jpg"
+    },
+    {
+        "title": "Introduction à la sécurité des API REST",
+        "desc": "Avec l'explosion des API de nouveaux défis de sécurité sont apparus. Certains standard (SOAP/WS-Security...) l'intègrent au coeur de leur fonctionnement. Mais dans le monde des API REST, le choix et la charge de la sécurisation est laissée en grande partie aux soins des développeurs. Ce talk aborde de façon itérative les risques et problématiques inhérents à REST : on part d'une simple requête qu'un supposé Vilain va attaquer, et on la protège mieux à chaque nouvelle agression. Au bout du chemin, une revue des deux principaux standards actuels qui implémentent les solutions évoquées : JWT et OAuth.",
+        "date": "2016-01-01",
+        "where": "Paris API @ LeBonCoin",
+        "link": "https://www.youtube.com/watch?v=RxYue96Rpvw",
+        "picture": "confs-securite-api-rest.jpg"
+    },
+    {
+        "title": "Fabriquer sa propre BlockChain avec NodeJs",
+        "desc": "Désacralisons la BlockChain ! Pour cela nous partirons d'une feuille blanche et construirons notre propre BlockChain fonctionnelle en NodeJS. Nous aborderons autant le comment que le pourquoi en pratiquant le douloureux et magnifique chemin du try-fail-fix-retry. Et peut-être au bout notre propre monnaie ?",
+        "date": "2017-01-01",
+        "where": "Meetup Bitcoin @ Digital & You",
+        "link": "https://www.youtube.com/watch?v=Ym4AP59_3Jw",
+        "picture": "confs-blockchain-nodejs.jpg"
+    },
+    {
+        "title": "Angular 2+ AOT, pourquoi, comment ?",
+        "desc": "Google a récemment mis en avant la compilation Ahead-Of-Time (AOT) au sein d'Angular. Elle nous promet plein de bonnes choses : les performances bien sûr, mais aussi la fiabilité du code. Pour bien profiter de l'AOT, comme dans tout domaine, il est toujours mieux de savoir le pourquoi et le comment. Ce talk vous montrera le fonctionnement de l'AOT, ses avantages et inconvénients.",
+        "date": "2017-01-01",
+        "where": "Angular Paris",
+        "link": "https://www.youtube.com/watch?v=OHlF6-aKjUg",
+        "picture": "confs-angular-aot.jpg"
+    },
+    {
+        "title": "Bâtir une application from scratch avec Amazon Web Services",
+        "desc": "Amazon Web Services (AWS) est un magnifique terrain de jeu pour créer des infrastructures dans le cloud. Mais c'est aussi l'ami des développeurs. Ce talk est un live de la mise en place d'une application web en partant de zéro.",
+        "date": "2017-01-01",
+        "where": "Meetup Cloud @ CleverMind",
+        "link": "https://www.youtube.com/watch?v=Ch94-KxFh94",
+        "picture": "confs-aws-pour-devs.jpg"
+    },
+    {
+        "title": "WebAssembly de ASM à WASM",
+        "desc": "WebAssembly c'est la nouvelle techo buzz-trendy poussée par les navigateurs ! C'est surtout de le moyen d'exploser la barrière de performances de Javascript et d'accomplir le vieux rêve d'activeX (LOL) et autre NaCl (RIP) : faire rentrer le monde du natif dans le Web. Pour bien comprendre ce qu'est WebAssembly, et savoir comment l'exploiter au mieux, rien de mieux que de se demander \"pourquoi WebAssembly\".Ce talk va donc partir du fin fond de la machine, et monter progressivement jusqu'à Javascript via les petits secrets des compilateurs dans les navigateurs. Pour aboutir logiquement sur le Wasm, format binaire du WebAssembly. On verra aussi (et surtout) à quoi ça sert, ce qu'on peut faire (ou pas) avec ce nouveau jouet, et au bout deux démos avec le REX associé, voire un bout de live-coding.",
+        "date": "2018-01-01",
+        "where": "@BreizhCamp 2018",
+        "link": "https://www.youtube.com/watch?v=L-MO9CyY6hM",
+        "picture": "confs-webassembly.jpg"
+    },
+    {
+        "title": "NGRX, quoi ? comment ? pour qui ?",
+        "desc": "Par rapport à Angular 1, Angular 2+ a été une révolution à plus d'un titre : langage, structure, écosystème, versionning, outils... C'est aussi l'arrivée d'une nouvelle façon de penser nos applications avec deux technos bien particulières : la librairie RxJs et le pattern Redux. Leur association a donné naissance (entre autres) à NGRX (Reactive Extensions for Angular). Et quand on est développeur Angular, difficile d'y échapper : meetups, articles et conférences abondent sur le sujet. Du typeahead-fait-main-en-deux-lignes à la méga-enterprise-app-ultra-réactive, et en ajoutant les upgrades-qui-sont-trop-bien, on a vite fait de s'y perdre et de ne plus trop savoir quoi en faire. Ce talk a pour vocation de partir des bases, vous faire comprendre le fonctionnement, et de vous exposer un retour d'expérience sur NGRX. Il y aura de la théorie, mais surtout de la pratique, avec un live-coding où nous referons notre propre NGRX. Vous verrez alors que ce pattern est beaucoup moins compliqué qu'il n'y paraît, et vous serez en mesure de déterminer s'il correspond ou pas à vos projets. Débutants Welcome !",
+        "date": "2018-10-01",
+        "where": "AngularX Paris @ Zenika",
+        "link": "https://www.youtube.com/watch?v=DtCl9yDVzZQ",
+        "picture": "confs-angular-ngrx.jpg"
+    },
+    {
+        "title": "Injection de dépendances dans Angular",
+        "desc": "Tout petit déjà Angular s'est fait remarquer par son système d'injection de dépendances (DI). Il a souvent été décrié pour son aspect artisanal (ah le tableaux de strings à passer à chaque fois !), mais depuis Angular 2 son implémentation est résolument plus moderne. Outre le confort offert au développeur, la DI est avant tout un rouage indispensable au bon fonctionnement du framework lui-même.Nous allons passer en revue les différentes possibilités offertes par la DI façon Angular, puis nous verrons comment nous en servir \"dans la vraie vie\" avec des cas d'usages.",
+        "date": "2018-03-01",
+        "where": "AngularParis @ Talent.io",
+        "link": "https://www.youtube.com/watch?v=52dTygSXO48",
+        "picture": "confs-angular-injection.jpg"
+    },
+    {
+        "title": "Organisation du Meetup WebAssembly Paris",
+        "date": "2019-01-01",
+        "where": "WebAssembly Paris",
+        "link": "https://www.meetup.com/fr-FR/Meetup-WebAssembly-Paris/",
+        "picture": "confs-webassembly-paris.jpg"
+    },
+    {
+        "title": "Custom Forms Controls dans Angular",
+        "desc": "S'il y a bien quelque chose dans le monde du Web qui donne du file à retordre aux développeurs, ce sont les formulaires. Ils sont indispensables, cruciaux et sont même devenus des business-models à part entière avec des applications comme Google Fom ou Typeform. Aujourd'hui se doit de proposer des expériences utilisateur sur mesure, en créant avec des contrôles de plus en plus évolués et adaptés aux besoins métiers. Mais quid du développement ? Comment faire cela de manière efficace et élégante ? Ce talk va vous présenter les solutions proposées par Angular et Angular Material : les Custom Form Controls. Nous verrons par un exemple progressif et live-codé (pré-enregistré) comment ces composants spéciaux fonctionnent et tout ce qu'ils peuvent nous apporter. On verra surtout qu'ils ne sont pas si compliqués qu'ils en ont l'air et à quel point ils nous simplifient nos vies de développeurs.",
+        "date": "2019-10-01",
+        "where": "AngularX Paris @ Numberly",
+        "link": "https://www.youtube.com/watch?v=CMPii35-Rqg",
+        "picture": "confs-custom-form-controls.jpg"
+    }
+]

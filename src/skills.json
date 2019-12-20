@@ -1,0 +1,39 @@
+[
+	{
+		"label": "Backend",
+		"technos": [
+			{"label": "PHP / Symfony"},
+			{"label": "Typescript / Javascript / NodeJs"},
+			{"label": "Java / SpringBoot"},
+			{"label": "C, Go"}
+		]		
+	},
+	{
+		"label": "Frontend",
+		"technos": [
+			{"label": "Javascript / Typescript"},
+			{"label": "WebAssembly"},
+			{"label": "Angular / Material"},
+			{"label": "D3.js"},
+			{"label": "HTML / CSS / SCSS"}
+		]		
+	},
+	{
+		"label": "Archi / DB",
+		"technos": [
+			{"label": "Amazon Web Services <strong>(certifié Solutions Architect Associate)</strong>"},
+			{"label": "Docker"},
+			{"label": "MySql, Postgres"},
+			{"label": "MongoDb (certification M101J)"}
+		]		
+	},
+	{
+		"label": "Tools",
+		"technos": [
+			{"label": "Git"},
+			{"label": "Bash"},
+			{"label": "Gitlab, Github"},
+			{"label": "Gitlab-CI"}
+		]		
+	}
+]

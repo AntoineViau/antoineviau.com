@@ -1,0 +1,37 @@
+[
+    {
+        "title": "TweetX86",
+        "desc": "Portage WebAssembly de Nasm, NDisasm et DosBox pour exécuter code assembleur x86 directement dans le navigateur.",
+        "technos": ["WebAssembly", "C", "Javascript"],
+        "link": "http://twt86.co/",
+        "picture": "prj-twt86.jpg"
+    },
+    {
+        "title": "Kraken Unofficial App ",
+        "desc": "Application Android non-officielle pour la plateforme de marché Kraken dédiée aux monnaies virtuelles (Bitcoin, Litecoin…) : consultation de comptes, passage d’ordres, historique, etc. ",
+        "technos": ["AngularJs", "Ionic", "Crosswalk", "Gulp"],
+        "link": "https://github.com/AntoineViau/kraken-unofficial-android-app",
+        "picture": "prj-kraken.jpg"
+    },
+    {
+        "title": "Calculateur de taxes et cotisations EURL et SASU",
+        "desc": "WebApp de calculs et comparaisons des cotisations sociales en fonction de la forme d’une société et de tous les paramètres associés : capital, charges et amortissements, rémunérations, dividendes, etc.",
+        "technos": ["Typescript", "AngularJs", "WebPack"],
+        "link": "https://github.com/AntoineViau/eurl-sasu",
+        "picture": "prj-eurl-sasu.jpg"
+    },
+    {
+        "title": "RunSnoopee / MyDjogg",
+        "desc": "Proof-of-Concept/MVP suite à la victoire au startup week-end de Rennes en mars 2015. Il s’agit d’une application Web destinée à mettre en contact les propriétaires de chiens avec des joggers désireux de courir avec un compagnon canin. C’est une Single Page Application (SPA) avec authentification Facebook, géocoding, cartes Google Maps. Le back-end utilise Parse.com en API REST.",
+        "technos": ["JavaScript", "AngularJS","Gulp","Parse.com","Facebook API","Google Maps API"],
+        "link": "https://github.com/AntoineViau/RunSnoopee",
+        "picture": "prj-runsnoopee.jpg"
+    },
+    {
+        "title": "ThiefTracker",
+        "desc": "Application de surveillance de domicile tournant sous Android. Si l’application détecte que le téléphone bouge elle active le GPS, envoie sa position par SMS, mail ou Web Service à intervalles réguliers. Elle peut être contrôlée à distance par SMS (alarme, statut, photos…).",
+        "technos": ["Java","Android"],
+        "link": "https://github.com/AntoineViau/ThiefTracker",
+        "picture": "prj-thieftracker.jpg"
+    }
+]

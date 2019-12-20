@@ -1,0 +1,24 @@
+{
+  "name": "pre-launch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-static": "^0.7.11",
+    "purify-css": "^1.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntoineViau/ddf-prelaunch-lead.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntoineViau/ddf-prelaunch-lead/issues"
+  },
+  "homepage": "https://github.com/AntoineViau/ddf-prelaunch-lead#readme"
+}
