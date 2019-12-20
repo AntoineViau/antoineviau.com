@@ -1,3 +1,14 @@
+<style>
+
+   @media print
+    {
+      .xps .g-brd-primary  {
+        border-color: #aaaaaa !important;
+      }
+    }
+
+ </style>
+
 <?php
 $json = file_get_contents(__DIR__."/experiences.json");
 $xps = json_decode($json);
@@ -10,7 +21,7 @@ function xpsSort($a, $b) {
 
 ?>
 
-<div class="container">
+<div class="container xps">
 	<?php
 	foreach($xps as $idx => $xp) {
 		xp1($xp, $idx);

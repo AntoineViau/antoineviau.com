@@ -28,7 +28,7 @@
           "addClasses": "page-break"
     },
     {
-        "label": "Projets",
+        "label": "Open-Source",
         "url": "#projets",
         "file": "100-projects.html",
         "id": "projets",

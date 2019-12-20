@@ -1,5 +1,12 @@
 [
     {
+        "title": "WebAssembly Real Time Jpeg Quality Control",
+        "desc": "Portage WebAssembly de la librairie JPEG (C ANSI) et intégration dans une simple page Web pour contrôler en temps réel les effets de la compression sur une image.",
+        "technos": ["WebAssembly", "C", "Javascript"],
+        "link": "https://github.com/AntoineViau/webassembly-jpeg",
+        "picture": "prj-webassembly-jpeg.jpg"
+    },
+    {
         "title": "TweetX86",
         "desc": "Portage WebAssembly de Nasm, NDisasm et DosBox pour exécuter code assembleur x86 directement dans le navigateur.",
         "technos": ["WebAssembly", "C", "Javascript"],

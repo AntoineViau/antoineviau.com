@@ -1,14 +1,39 @@
-<div class="container g-pt-20">
+<style>
 
-Une des passions qui m'accompagne depuis 20 ans maintenant est la moto : 
+   @media print
+    {
+      .perso .g-brd-blue-left  
+      {
+        border-color: #cccccc !important;
+      }
+    }
 
-Moto et voyages
+ </style>
 
-Danse
+<?php
+$json = file_get_contents(__DIR__."/perso.json");
+$persos = json_decode($json);
+?>
 
-Poker
+<div class="container g-pt-20 perso">
+<ul class="list-unstyled">
 
-Sport
+<?php
+foreach($persos as $perso) {
 
-Bricolage
+	echo <<<EOT
+	<li class="g-brd-around g-brd-gray-light-v4 g-brd-left-3 g-brd-blue-left g-rounded-3 g-pa-20 g-mb-7">
+		<div class="d-flex justify-content-start">
+			<h5 class="g-font-weight-600 g-color-black">$perso->title</h5>
+			<span class="ml-auto small g-color-blue g-px-10">&nbsp;</span>
+		</div>
+		<p>
+			$perso->text
+		</p>
+	</li>
+EOT;
+}
+?>
+
+</ul>
 </div>

@@ -1,0 +1,22 @@
+[
+	{
+		"title": "Sport",
+		"text": "Natation, musculation, course à pied."
+	},
+	{
+		"title": "Moto",
+		"text": "Voyages à moto (deux tours d’Europe et une grande balade entre la France et la Turquie), mécanique (j’ai suivi une formation), circuit."
+	},
+	{
+		"title": "Danses de couples",
+		"text": "Lindy-Hop, Balboa, West Coast Swing, Blues."
+	},
+	{
+		"title": "Bricolage",
+		"text": "Menuiserie et électronique (Arduino, Raspberry Pi...)."
+	},
+	{
+		"title": "Poker",
+		"text": "Stratégie, organisation, couverture de tournois nationaux et internationaux pour ClubPoker.net."
+	}
+]
