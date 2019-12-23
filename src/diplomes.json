@@ -1,0 +1,17 @@
+[
+    {
+        "where": "Conservatoire National des Arts et Métiers / CNAM",
+        "what": "Ingénieur diplômé de l'école d'ingénieurs du Cnam spécialité informatique",
+        "how": ["Architecture et ingénierie des systèmes et des logiciels", "Mention très bien"]
+    },
+    {
+        "where": "Amazon Web Services",
+        "what": "Certifié Amazon Web Services Solutions Architect (2019)",
+        "how": ["Score : 973/1000"]
+    },
+    {
+        "where": "Anglais",
+        "what": "",
+        "how": ["TOEIC Anglais : 975/1000", "BULATS Anglais : C1 - 89/100"]
+    }
+]

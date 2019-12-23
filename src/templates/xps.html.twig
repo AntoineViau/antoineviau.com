@@ -1,0 +1,32 @@
+<style type="text/css">
+@media print
+{
+.xps .g-brd-primary  {
+border-color: #aaaaaa !important;
+}
+}
+</style>
+<div class="container xps">
+	{% for xp in xps %}
+		{% set textAlign = (loop.index-1) % 2 == 0 ? 'text-right': 'text-left' %}
+		<div class="u-heading-v4-1 {{textAlign}}">
+			<div class="g-mb-30">
+				<h2 class="h3 u-heading-v4__title g-mb-10">{{xp.title}}</h2>
+				<p class="g-mb-3">
+				<strong>{{xp.client}}</strong>, du {{xp.start|slice(5,2)}}/{{xp.start|slice(0,4)}} au {{xp.end|slice(5,2)}}/{{xp.end|slice(0,4)}}</p>
+			</div>
+			<p class="text-justify"><i>{{xp.desc1}}</i></p>
+			<p class="text-justify">{{xp.desc2}}</p>
+			<div class="{{textAlign}}">
+				{% for techno in xp.technos %}
+					<a href="#" class="btn btn-sm g-font-weight-600 g-letter-spacing-0_5 text-uppercase g-brd-2 g-rounded-50 g-mr-10 g-mb-15">
+						{{techno}}
+					</a>
+				{% endfor %}
+			</div>
+		</div>
+		{% if loop.index != (xps | length)  %}
+			<hr class="w-25 g-my-20 g-brd-primary">
+		{% endif %}
+	{% endfor %}
+</div>

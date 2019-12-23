@@ -1,0 +1,19 @@
+<div class="container g-pt-20">
+	{% for diplome in diplomes %}
+		<div class="card rounded-0 g-mb-20">
+			<h3 class="card-header h5 rounded-0">
+			{{diplome.where}}
+			</h3>
+			<div class="card-block">
+				<h4 class="h5">
+				{{diplome.what}}
+				</h4>
+				<p class="card-text">
+					{% for line in diplome.how %}
+						{{line}}<br />
+					{% endfor %}
+				</p>
+			</div>
+		</div>
+	{% endfor %}
+</div>

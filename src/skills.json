@@ -14,6 +14,7 @@
 			{"label": "Javascript / Typescript"},
 			{"label": "WebAssembly"},
 			{"label": "Angular / Material"},
+			{"label": "AgGrid"},
 			{"label": "D3.js"},
 			{"label": "HTML / CSS / SCSS"}
 		]		
@@ -21,10 +22,10 @@
 	{
 		"label": "Archi / DB",
 		"technos": [
-			{"label": "Amazon Web Services <strong>(certifié Solutions Architect Associate)</strong>"},
+			{"label": "Amazon Web Services (certifié Solutions Architect Associate)"},
 			{"label": "Docker"},
 			{"label": "MySql, Postgres"},
-			{"label": "MongoDb (certification M101J)"}
+			{"label": "MongoDb (certifié M101J)"}
 		]		
 	},
 	{

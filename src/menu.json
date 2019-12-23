@@ -1,8 +1,16 @@
 [
     {
+        "label": "",
+        "url": "#intro",
+        "file": "",
+        "twig": "intro.html.twig",
+        "id": "intro"
+    },
+    {
         "label": "Compétences",
         "url": "#skills",
         "file": "025-skills.html",
+        "twig": "skills.html.twig",
         "id": "skills",
         "addClasses": "page-break"
     },
@@ -10,6 +18,7 @@
         "label": "Conférences & Talks",
         "url": "#confs",
         "file": "075-confs.html",
+        "twig": "confs.html.twig",
         "id": "confs",
         "addClasses": "page-break"
     },
@@ -17,6 +26,7 @@
         "label": "Parcours Professionel",
         "url": "#xps",
         "file": "050-xps.html",
+        "twig": "xps.html.twig",
         "id": "xps",
         "addClasses": "page-break"
     },
@@ -24,13 +34,15 @@
         "label": "Diplômes & Certifications",
         "url": "#diplomes",
         "file": "060-diplomes.html",
+        "twig": "diplomes.html.twig",
         "id": "diplomes",
-          "addClasses": "page-break"
+        "addClasses": "page-break"
     },
     {
         "label": "Open-Source",
         "url": "#projets",
         "file": "100-projects.html",
+        "twig": "projects.html.twig",
         "id": "projets",
         "addClasses": "page-break"
     },
@@ -38,6 +50,7 @@
         "label": "Perso",
         "url": "#perso",
         "file": "110-perso.html",
+        "twig": "perso.html.twig",
         "id": "perso",
         "addClasses": "page-break"
     },
@@ -45,6 +58,7 @@
         "label": "Contact",
         "url": "#contact",
         "file": "120-contact.html",
+        "twig": "contact.html.twig",
         "id": "contact",
         "addClasses": "no-print"
     }

@@ -1,12 +1,14 @@
 <?php
-$base64 = base64_encode(file_get_contents(__DIR__.'/assets/img/moi-micro.jpg'));
-?>
+
+$base64 = base64_encode(file_get_contents(__DIR__ . '/assets/img/moi-micro.jpg'));
+
+echo <<<EOT
 <div class="container g-pt-30">
 	<div class="row g-mb-30">
 		<div class="col-md-7 align-self-center">
 			<h3 class="h3 g-mb-15">
 			<a class="u-link-v5 g-color-gray-dark-v2 g-color-primary--hover" href="#">
-				Antoine Viau<br />
+				xxAntoine Viau<br />
 				Senior Architecte / Software Engineer<br />
 				Freelance
 			</a>
@@ -34,7 +36,8 @@ $base64 = base64_encode(file_get_contents(__DIR__.'/assets/img/moi-micro.jpg'));
 		<div class="col-md-5 text-center g-pt-100">
 			<img
 			class="img-fluid w-70 g-mb-20 g-mb-0--md"
-			src="data:image/jpeg;base64, <?=$base64?>" alt="Antoine Viau">
+			src="data:image/jpeg;base64, <?=$base64;?>" alt="Antoine Viau">
 		</div>
 	</div>
 </div>
+EOT;

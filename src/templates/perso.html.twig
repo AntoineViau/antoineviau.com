@@ -1,0 +1,24 @@
+<style>
+@media print
+{
+.perso .g-brd-blue-left
+{
+border-color: #cccccc !important;
+}
+}
+</style>
+<div class="container g-pt-20 perso">
+	<ul class="list-unstyled">
+		{% for perso in persos %}
+			<li class="g-brd-around g-brd-gray-light-v4 g-brd-left-3 g-brd-blue-left g-rounded-3 g-pa-20 g-mb-7">
+				<div class="d-flex justify-content-start">
+					<h5 class="g-font-weight-600 g-color-black">{{perso.title}}</h5>
+					<span class="ml-auto small g-color-blue g-px-10">&nbsp;</span>
+				</div>
+				<p>
+					{{perso.text}}
+				</p>
+			</li>
+		{% endfor %}
+	</ul>
+</div>

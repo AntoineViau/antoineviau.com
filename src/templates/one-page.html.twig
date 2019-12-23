@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Antoine Viau, Senior Architect / Software Engineer Freelance</title>
+		<meta charset="utf-8" />
+		<meta
+		name="viewport"
+		content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+		<meta name="description" content="Antoine Viau, Senio Architect / Software Engineer Freelance" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+		{% if build is not defined or build == false %}
+			<link rel="stylesheet" group href="./assets/css/unify-core.css">
+			<link rel="stylesheet" group href="./assets/css/unify-components.css">
+			<link rel="stylesheet" group href="./assets/css/unify-globals.css">
+			<link rel="stylesheet" group href="./custom.css">
+		{% else %}
+			include-css-here
+		{% endif %}
+		<style type="text/css">
+			body {
+				margin: 1cm;
+			}
+			a {
+				text-decoration: none !important;
+				color: black !important;
+			}
+			.photo {
+				width: 4cm !important;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container ">
+			<div class="row g-mb-30 g-pb-10 g-brd-bottom g-brd-1 g-brd-gray-light-v1">
+				<div class="col-md-7">
+					<h3 class="h3 g-mb-15">
+					<a class="u-link-v5 g-color-gray-dark-v2 g-color-primary--hover" href="#">
+						Antoine Viau<br />
+						Senior Architecte / Software Engineer<br />
+					</a>
+					</h3>
+					<div class="media g-font-size-12 g-color-gray-dark-v4 g-mb-0">
+						<div class="media-body">
+						</div>
+					</div>
+					<p>
+						+33 6 14 49 64 03<br />
+						contact@antoineviau.com<br />
+						<a href="https://www.linkedin.com/in/antoine-viau-6ba9b610">
+							https://www.linkedin.com/in/antoine-viau-6ba9b610
+						</a>
+					</p>
+				</div>
+				<div class="col-md-5 text-right">
+					<img
+					class="img-fluid w-50 g-mb-20 g-mb-0--md photo"
+					src="data:image/jpeg;base64, {{photo}}" alt="Antoine Viau">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 g-brd-right g-brd-1 g-brd-gray-light-v1">
+					<div class="skills">
+						<h3 class="h3 g-mb-15">Compétences</h3>
+						{% for domain in domains %}
+							<div class="domain g-mb-10">
+								<h4 class="h5 g-font-weight-600">{{domain.label}}</h4>
+								{% for techno in domain.technos %}
+									<span class="g-mb-20 g-font-weight-600">{{techno.label}}</span>
+								{% endfor %}
+								</div>
+							{% endfor %}
+						</div>
+						<div class="diplomes g-mb-10">
+							<h3 class="h3 g-mb-15">Diplômes & Certifications</h3>
+							Ingénieur diplômé de l'école d'ingénieurs du Cnam spécialité Architecture et ingénierie des systèmes et des logiciels<br />
+							<br />
+							Certifié Amazon Web Services Solutions Architect (2019)<br />
+							<br />
+							Anglais : capacité professionnelle complète, TOEIC 975/995.
+						</div>
+						<div class="confs g-mb-10">
+							<h3 class="h3 g-mb-15">Conférences</h3>
+							{% for conf in confs %}
+								<div>
+									{{ conf.year | slice(0,4) }} - {{ conf.title }}
+								</div>
+							{% endfor %}
+						</div>
+						<div class="projets g-mb-10">
+							<h3 class="h3 g-mb-15">Projets</h3>
+							<div class="g-mb-10 g-font-weight-600">
+								Github : <a href="https://github.com/AntoineViau">https://github.com/AntoineViau</a>
+							</div>
+							{% for project in projects %}
+								<div>{{project.title}}</div>
+							{% endfor %}
+						</div>
+						<div class="perso">
+							<h3 class="h3 g-mb-15">Activités</h3>
+							{% for perso in persos %}
+								<strong>{{perso.title}}</strong> : {{perso.text}}<br />
+							{% endfor %}
+						</div>
+					</div>
+					<!-- EXPERIENCES -->
+					<div class="col-md-6">
+						<h3>Expériences</h3>
+						{% for xp in xps if xp.start| slice(0,4) > 2003 %}							
+							{% set textAlign = (loop.index-1) % 2 == 0 ? 'text-right': 'text-left' %}
+							<div class="g-mb-15 {{textAlign}}">
+								<div>
+									<h2 class="h5 u-heading-v4__title g-mb-10">
+										<strong>{{xp.title}}</strong>
+									</h2>
+									<div>
+										<strong>{{xp.client}}</strong>, du {{ xp.start|slice(5,2) }}/{{ xp.start|slice(0,4) }} au {{ xp.end|slice(5,2) }}/{{ xp.end|slice(0,4) }}
+									</div>
+								</div>
+								<div class="{{textAlign}}">
+									{% for techno in xp.technos %}
+										<a href="#" class="btn btn-sm  g-letter-spacing-0_5 text-uppercase ">
+											{{techno}}
+										</a>
+									{% endfor %}
+								</div>
+							</div>
+						{% endfor %}
+					</div>
+					<!-- /EXPERIENCES -->
+				</div>
+			</div>
+		</body>
+	</html>

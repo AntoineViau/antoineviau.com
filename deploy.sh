@@ -1,7 +1,7 @@
 set -e
 rm -rf ./dist
 mkdir ./dist
-php src/index.php build > dist/index.html
+php src/generate.php build > dist/index.html
 
 
 php build.php merge ./src ./src/index.php
@@ -18,7 +18,7 @@ echo "Gzipped filesize: "
 ls -lha dist/index.html.gz | nawk '{print $5}'
 gunzip dist/index.html.gz
 
-aws s3 cp ./dist/index.html s3://antoineviau.com/index.html --acl public-read --profile antoineviau
+# aws s3 cp ./dist/index.html s3://antoineviau.com/index.html --acl public-read --profile antoineviau
 
 
 	
