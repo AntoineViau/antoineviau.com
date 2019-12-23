@@ -24,7 +24,4 @@ rm ./dist/index.css
 rm ./dist/index.min.css
 
 aws s3 cp ./dist/index.html s3://antoineviau.com/index.html --acl public-read --profile antoineviau
-aws s3 cp ./dist/index.html s3://antoineviau.com/one-page.html --acl public-read --profile antoineviau
-
-
-	
+aws s3 cp ./dist/one-page.html s3://antoineviau.com/one-page.html --acl public-read --profile antoineviau
