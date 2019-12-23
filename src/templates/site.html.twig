@@ -47,20 +47,19 @@
             {% include 'header.html.twig' %}
             {% for section in menu if section.twig is defined %}
                 {% set bgClass = (loop.index-1) % 2 != 0 ? 'g-bg-graylight-radialgradient-ellipse' : 'g-bg-secondary' %}
-                    <section
-                        id="{{section.id}}"
-                        class="g-pb-30 g-brd-gray-light-v1 g-brd-bottom {{section.addClasses}} {{bgClass}}">                            
-                        {% if section.label is defined  and section.label != "" %}
-                            <div class="g-max-width-550 text-center mx-auto g-pt-60 g-pb-30">
-                                <h1 class="h1">
-                                    <strong>{{section.label}}</strong>
-                                </h1>
-                            </div>
-                        {% endif %}
-                        {% include section.twig %}
-                    </section>
+                <section
+                    id="{{section.id}}"
+                    class="g-pb-30 g-brd-gray-light-v1 g-brd-bottom {{section.addClasses}} {{bgClass}}">
+                    {% if section.label is defined  and section.label != "" %}
+                        <div class="g-max-width-550 text-center mx-auto g-pt-60 g-pb-30">
+                            <h1 class="h1">
+                            <strong>{{section.label}}</strong>
+                            </h1>
+                        </div>
+                    {% endif %}
+                    {% include section.twig %}
+                </section>
             {% endfor %}
-
             <footer class="g-bg-gray-dark-v1 g-color-white-opacity-0_8 g-py-20 no-print">
                 <div class="container">
                     <div class="row">
