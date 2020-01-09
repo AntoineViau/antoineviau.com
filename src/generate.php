@@ -43,7 +43,7 @@ foreach ($projects as $project) {
 $json = file_get_contents(__DIR__ . "/data/perso.json");
 $persos = json_decode($json);
 
-$template = $argv[1] . '.html.twig';
+$template = (isset($argv[1]) ? $argv[1] : 'site'). '.html.twig';
 
 echo $twig->render($template, [
     'build' => isset($argv[2]) && $argv[2] == 'build',
