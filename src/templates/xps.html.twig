@@ -1,10 +1,12 @@
 <style type="text/css">
-@media print
-{
-.xps .g-brd-primary  {
-border-color: #aaaaaa !important;
-}
-}
+	@media print {
+		.xps .g-brd-primary {
+			border-color: #aaaaaa !important;
+		}
+	}
+	.technos .btn {
+		cursor: text !important;
+	}
 </style>
 <div class="container xps">
 	{% for xp in xps %}
@@ -13,15 +15,20 @@ border-color: #aaaaaa !important;
 			<div class="g-mb-30">
 				<h2 class="h3 u-heading-v4__title g-mb-10">{{xp.title}}</h2>
 				<p class="g-mb-3">
-				<strong>{{xp.client}}</strong>, du {{xp.start|slice(5,2)}}/{{xp.start|slice(0,4)}} au {{xp.end|slice(5,2)}}/{{xp.end|slice(0,4)}}</p>
+					<strong>{{xp.client}}</strong>, du
+					{{xp.start|slice(5,2)}}/{{xp.start|slice(0,4)}}
+					au
+					{{xp.end|slice(5,2)}}/{{xp.end|slice(0,4)}}</p>
 			</div>
-			<p class="text-justify"><i>{{xp.desc1}}</i></p>
+			<p class="text-justify">
+				<i>{{xp.desc1}}</i>
+			</p>
 			<p class="text-justify">{{xp.desc2}}</p>
-			<div class="{{textAlign}}">
+			<div class="{{textAlign}} technos">
 				{% for techno in xp.technos %}
-					<a href="#" class="btn btn-sm g-font-weight-600 g-letter-spacing-0_5 text-uppercase g-brd-2 g-rounded-50 g-mr-10 g-mb-15">
+					<span class="btn btn-sm g-font-weight-600 g-letter-spacing-0_5 text-uppercase g-brd-2 g-rounded-50 g-mr-10 g-mb-15">
 						{{techno}}
-					</a>
+					</span>
 				{% endfor %}
 			</div>
 		</div>
