@@ -33,8 +33,8 @@
 		</style>
 	</head>
 	<body>
-		<div class="container ">
-			<div class="row g-mb-30 g-pb-10 g-brd-bottom g-brd-1 g-brd-gray-light-v1">
+		<div class="container "> 
+			<div class="row g-mb-15 g-pb-10 g-brd-bottom g-brd-1 g-brd-gray-light-v1">
 				<div class="col-md-7">
 					<h3 class="h3 g-mb-15">
 					<a class="u-link-v5 g-color-gray-dark-v2 g-color-primary--hover" href="#">
@@ -100,7 +100,7 @@
 								<div>{{project.title}}</div>
 							{% endfor %}
 						</div>
-						<div class="perso">
+						<div class="perso"> 
 							<h3 class="h3 g-mb-15">Activités</h3>
 							{% for perso in persos %}
 								<strong>{{perso.title}}</strong> : {{perso.text}}<br />
@@ -110,9 +110,9 @@
 					<!-- EXPERIENCES -->
 					<div class="col-md-6">
 						<h3>Expériences</h3>
-						{% for xp in xps if xp.start| slice(0,4) > 2003 %}							
+						{% for xp in xps if xp.start| slice(0,4) > 2004 %}							
 							{% set textAlign = (loop.index-1) % 2 == 0 ? 'text-right': 'text-left' %}
-							<div class="g-mb-15 {{textAlign}}">
+							<div class="g-mb-10 {{textAlign}}">
 								<div>
 									<h2 class="h5 u-heading-v4__title g-mb-10">
 										<strong>{{xp.title}}</strong>
